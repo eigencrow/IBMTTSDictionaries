@@ -14,7 +14,7 @@ The main dictionary has support for words containing hyphens. By default, howeve
 ## Contributing
 Contributions will be factored into a new stable version of the dictionaries, to be released on the first day of every month.
 
-feel free to make as many pull requests as you wish, with your modifications or additions to the dictionaries. Pull requests must consist of valid phonemic syntax for American English.
+feel free to make as many pull requests as you wish, with your modifications or additions to the dictionaries. Pull requests must consist of valid phonemic syntax for a language that IBMTTS supports.
 
 **Note**: ECI is not a Unicode-aware library, and thus the dictionary files are not Unicode. For presumably every non-Asian language the dictionary files are expected to have a character encoding of Windows 1252. This is an extended ASCII charset and so anything pure ASCII will of course work, but if going beyond ASCII make sure that your text editor loads and saves in cp1252, sometimes identified as ANSI on systems in these languages. Failure to do so in pull requests may result in your pull request being rejected or else a possible breaking of many entries in the existing dictionary.
 
