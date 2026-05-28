@@ -35,5 +35,5 @@ For US English, Pronunciation tends toward General American for most words, thou
 
 These files are maintained by [amirsol81](https://github.com/amirsol81),   [x0](https://github.com/ultrasound1372), and [thunderdrop](https://github.com/thunderdrop), with contributions from many.
 
-NO ownership of the IBMTTS driver and/or dependencies is implied or should be inferred.
+No ownership of the IBMTTS driver and/or dependencies is implied or should be inferred.
 
