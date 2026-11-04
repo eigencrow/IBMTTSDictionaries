@@ -8,9 +8,7 @@ This is a community project for modifying pronunciation dictionary files, used w
 
 ## Usage
 
-If you are using an NVDA addon or similar which incorporates this dictionary already, you do not need to do anything to make your existing dictionary work.
-
-Otherwise, to install a new version, or update an existing version: copy all contained files with a .dic  extention to the location of the driver binary, usually ECI.DLL.
+If you are using an NVDA addon or similar which incorporates this dictionary already, you may be able to download the latest version of these dictionaries from within NVDA. Please consult that addon's documentation for info about downloading or updating the dictionary from there. Otherwise, to install a new version, or update an existing version: copy all contained files with a .dic  extention to the location of the driver binary, usually ECI.DLL.
 In NVDA, this is quite often in a folder called "eloquence" or "ibmtts" in the synthDrivers folder of the addon you installed.
 
 If you are wrapping this driver yourself, you will need to implement it such that your implementation can load and parse these files with the correct names (not documented here).
@@ -33,7 +31,6 @@ For US English, Pronunciation tends toward General American for most words, thou
 
 ## Credits
 
-These files are maintained by [amirsol81](https://github.com/amirsol81),   [x0](https://github.com/ultrasound1372), and [thunderdrop](https://github.com/thunderdrop), with contributions from many.
+These files are maintained by [amirsol81](https://github.com/amirsol81),   [x0](https://github.com/ultrasound1372), and [eigencrow](https://github.com/eigencrow), with contributions in both English and German from many.
 
-No ownership of the IBMTTS driver and/or dependencies is implied or should be inferred.
-
+No ownership of ECI or the IBMTTS driver and/or dependencies is implied or should be inferred. This project is not associated with IBM.
